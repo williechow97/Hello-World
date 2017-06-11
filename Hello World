@@ -1,2 +1,9 @@
-System.out.println("Hello World");
-System.out.println("edit");
+import java.util.*;
+public static void main(String args[]){
+  System.out.println("Hello World");
+  System.out.println("edit");
+  Scanner userScanner = new Scanner(System.in);
+  System.out.println("Enter a phrase:");
+  String phrase = userScanner.next();
+  System.out.println("Phrase entered was: + phrase"); 
+}
